@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-encarapi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://encarapi.com/
+EnCarAPI provides a REST API delivering Korean used-car market data from Encar, KB Chachacha, and K Car. Over 300,000 deduplicated vehicle listings, inspection reports, accident history, dealer information, and price history are available in real-time JSON responses. Plans start at €149/month with unlimited access to listings, photos, specifications, and market statistics, plus optional add‑ons for Chinese market data.
+
+**Areas:** Automotive · Data · Korean · Cars · API
+
+## encarapi-com on APIs.io
+
+Everything profiled for encarapi-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/encarapi-com/](https://apis.io/providers/encarapi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [encarapi-com Archive API](https://apis.io/apis/encarapi-com/encarapi-com-archive-api/) — Business/Scale; trials get a daily preview of 100 lookups. Removed listings with their last known data, earlier versions of inspection reports and insurance…
+- [encarapi-com Catalog API](https://apis.io/apis/encarapi-com/encarapi-com-catalog-api/) — Search & list vehicles
+- [encarapi-com Discovery API](https://apis.io/apis/encarapi-com/encarapi-com-discovery-api/) — Filter facets & valid values
+- [encarapi-com Equipment API](https://apis.io/apis/encarapi-com/encarapi-com-equipment-api/) — Business/Scale (and trials). Used excavators from 굴삭기나라 (direct-nara.co.kr), Korea's dedicated construction-equipment marketplace: crawler and wheeled…
+- [encarapi-com Leasing API](https://apis.io/apis/encarapi-com/encarapi-com-leasing-api/) — Lease-takeover (리스) and rental (렌트) listings - same shape and filters as /api/catalog, kept separate because these price by monthly payment, not a purchase…
+- [encarapi-com Sync API](https://apis.io/apis/encarapi-com/encarapi-com-sync-api/) — Business/Scale. Trials can test the change feed (last 7 days) and bulk lookups (1,000 ids per day), but not the full export. Hold a local copy of the…
+- [encarapi-com Taxonomy API](https://apis.io/apis/encarapi-com/encarapi-com-taxonomy-api/) — Downloadable make/model/badge lists (CSV). Fetch once, cache for a day, and drive your dropdowns from these - no offline mapping, no per-click facet calls.
+- [encarapi-com Trucks API](https://apis.io/apis/encarapi-com/encarapi-com-trucks-api/) — Business/Scale (and trials). Encar's truck, bus and special-vehicle marketplace (화물·특장·버스): cargo trucks (Porter, Bongo, Mighty, Xcient ...), wing bodies,…
+- [encarapi-com Vehicle API](https://apis.io/apis/encarapi-com/encarapi-com-vehicle-api/) — Per-vehicle detail, history & inspection
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Encarapi Com Agentic Access](https://apis.io/agentic-access/encarapi-com/encarapi-com-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [CatalogResponse](https://apis.io/schemas/encarapi-com/encarapi-com-catalog-response/)
+- [EnumsResponse](https://apis.io/schemas/encarapi-com/encarapi-com-enums-response/)
+- [InspectionResponse](https://apis.io/schemas/encarapi-com/encarapi-com-inspection-response/)
+- [ModelSearchResponse](https://apis.io/schemas/encarapi-com/encarapi-com-model-search-response/)
+- [RecordResponse](https://apis.io/schemas/encarapi-com/encarapi-com-record-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Encarapi Com Context](https://apis.io/jsonld/encarapi-com/encarapi-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [encarapi-com API Rules](https://apis.io/rules/encarapi-com/encarapi-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Encarapi Com Authentication](https://apis.io/security/encarapi-com/encarapi-com-authentication/)
+- [Encarapi Com Domain Security](https://apis.io/security/encarapi-com/encarapi-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Encarapi Com Scopes](https://apis.io/scopes/encarapi-com/encarapi-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Encarapi Com Plans Pricing](https://apis.io/plans/encarapi-com/encarapi-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://encarapi.com/)
+- [Documentation](https://api.encarapi.com/reference)
+- [API reference](https://api.encarapi.com/reference)
+- [Pricing](https://encarapi.com/#pricing)
+- [Support](https://t.me/innqtech)
+- [GitHub](https://github.com/ThatMojo)
+
+## API Evangelist rating
+
+**Kin Score 51.9** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 61.7 |
+| Contract governance | 70.9 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 38.9 |
+
+**Agent readiness 52.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/encarapi-com/](https://apis.io/providers/encarapi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for encarapi-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/encarapi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
